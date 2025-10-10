@@ -7,10 +7,9 @@ build:
 
   jobs:
     build:
-      # Génération du site HTML
-      - sphinx-build -T -b html -d _build/doctrees . $READTHEDOCS_OUTPUT/html
-      # Génération du PDF
-      - sphinx-build -T -b latex -d _build/doctrees . $READTHEDOCS_OUTPUT/pdf
+      commands:
+        - sphinx-build -T -b html -d _build/doctrees . $READTHEDOCS_OUTPUT/html
+        - sphinx-build -T -b latex -d _build/doctrees . $READTHEDOCS_OUTPUT/pdf
 
 sphinx:
   configuration: conf.py
