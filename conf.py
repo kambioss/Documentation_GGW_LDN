@@ -49,9 +49,7 @@ latex_elements = {
 
 import os
 
-# Configuration pour Read the Docs
 if os.environ.get('READTHEDOCS') == 'True':
-    # Utiliser le répertoire de sortie de Read the Docs
-    readthedocs_output = os.environ.get('READTHEDOCS_OUTPUT', '_build')
-    # Configurer le répertoire doctrees
-    os.environ['SPHINXOPTS'] = f'-d {readthedocs_output}/doctrees'
+    # Le chemin de sortie sera géré automatiquement par RTD
+    # mais on s'assure que doctrees utilise aussi le bon répertoire
+    pass
