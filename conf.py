@@ -46,3 +46,11 @@ html_static_path = ['_static']
 latex_elements = {
     'figure_align': 'H',
 }
+
+import os
+
+# Use Read the Docs output directory if available
+if os.environ.get('READTHEDOCS') == 'True':
+    html_output_dir = os.environ.get('READTHEDOCS_OUTPUT', '_build') + '/html'
+else:
+    html_output_dir = '_build/html'
