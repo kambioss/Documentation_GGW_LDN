@@ -5,9 +5,8 @@
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-import sphinx_rtd_theme
 
-project = 'GGW Land Degradation Management'
+project = 'GGW LDM'
 copyright = '2025, OSS'
 author = 'OSS'
 release = '0.0.1'
@@ -31,7 +30,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx_book_theme'
+html_theme = 'pydata_sphinx_theme'
 
 html_theme_options = {
     "repository_url": "https://github.com/kambioss/Documentation_GGW_LDN",
@@ -44,3 +43,6 @@ html_theme_options = {
 
 html_static_path = ['_static']
 #html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+latex_elements = {
+    'figure_align': 'H',
+}

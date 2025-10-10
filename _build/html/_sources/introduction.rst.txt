@@ -1,7 +1,17 @@
 Introduction
 ============
 
-MISLAND est un plugin QGIS puissant conçu pour faciliter le calcul d'indicateurs, l'accès aux données et la création de cartes.
+.. figure:: _static/images/Home_page.png
+   :alt: Land cover change map
+   :width: 600px
+   :align: center
+
+   Home page
+
+
+La plateforme régionale de suivi de la dégradation des terres et de la gestion durable des terres (GDT) est développée dans le cadre du projet GEF-9825, mis en œuvre par le PNUE avec l’appui du FEM et coordonné par l’Observatoire du Sahara et du Sahel (OSS).
+Elle vise à appuyer les pays de la Grande Muraille Verte (Burkina Faso, Éthiopie, Niger et Sénégal) dans le suivi, l’analyse et la diffusion des informations sur la dégradation des terres et les pratiques de GDT.
+Hébergée par l’OSS, la plateforme permet de centraliser les données, visualiser les tendances, et faciliter la planification et la prise de décision en matière de restauration des terres.
 
 Caractéristiques principales
 ----------------------------
@@ -11,17 +21,13 @@ Caractéristiques principales
 * Outils de cartographie avancés
 * Interface utilisateur intuitive
 
-Code source
------------
+.. image:: _static/images/geoportail_interface.png
+   :alt: Land cover change map
+   :width: 600px
+   :align: center
 
-Le code source du plugin est disponible sur GitHub:
-
-.. code-block:: bash
-
-   https://github.com/votre-organisation/misland-qgis-plugin
-
-Documentation supplémentaire
+Visitez la plateforme
 ----------------------------
 
 Pour plus d'informations, veuillez consulter notre site web:
-https://votre-site-web.com/misland
+https://ggw-ldn.oss-online.org/

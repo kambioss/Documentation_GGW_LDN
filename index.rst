@@ -6,9 +6,7 @@
 GGW Land Degradation Management documentation
 =============================================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Bienvenue dans la documentation de GGW Land Degradation Management
 
 
 
@@ -17,3 +15,6 @@ documentation for details.
    :caption: Contents:
    
    introduction
+   plateforme_use
+   SDGs 15.3.1
+   
