@@ -16,3 +16,8 @@ python:
 
 formats:
   - pdf
+
+# Indique la branche par défaut
+vcs:
+  type: git
+  branch: main
