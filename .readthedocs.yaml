@@ -5,7 +5,8 @@ build:
   tools:
     python: "3.10"
   commands:
-    - sphinx-build -b html . $READTHEDOCS_OUTPUT/html
+    sphinx-build -b html . _build/html
+    cp -r _build/html/* $READTHEDOCS_OUTPUT/html/
 
 sphinx:
   configuration: conf.py
