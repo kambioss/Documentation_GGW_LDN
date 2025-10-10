@@ -14,3 +14,9 @@ python:
 
 formats:
   - pdf
+
+# Ajout pour indiquer la bonne branche
+vcs:
+  type: git
+  url: https://github.com/kambioss/Documentation_GGW_LDN.git
+  branch: main
