@@ -4,24 +4,16 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.10"
+  jobs:
+    pre_build:
+      - echo "Building from main branch"
 
 sphinx:
   configuration: conf.py
 
-formats:
-  - pdf
-
-# Optionnel : préciser la branche à builder
-# (si ta branche principale s'appelle "main")
-# Pas obligatoire mais utile si ReadTheDocs se trompe
-build:
-  os: ubuntu-22.04
-  tools:
-    python: "3.10"
-  jobs:
-    pre_build:
-      - git checkout main
-
 python:
   install:
     - requirements: requirements.txt
+
+formats:
+  - pdf
