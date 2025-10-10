@@ -5,6 +5,13 @@ build:
   tools:
     python: "3.10"
 
+  jobs:
+    build:
+      # Génération du site HTML
+      - sphinx-build -T -b html -d _build/doctrees . $READTHEDOCS_OUTPUT/html
+      # Génération du PDF
+      - sphinx-build -T -b latex -d _build/doctrees . $READTHEDOCS_OUTPUT/pdf
+
 sphinx:
   configuration: conf.py
 
