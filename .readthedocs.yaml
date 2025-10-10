@@ -5,14 +5,10 @@ build:
   tools:
     python: "3.10"
 
-  jobs:
-    build:
-      commands:
-        - sphinx-build -T -b html -d _build/doctrees . $READTHEDOCS_OUTPUT/html
-        - sphinx-build -T -b latex -d _build/doctrees . $READTHEDOCS_OUTPUT/pdf
-
 sphinx:
   configuration: conf.py
+  builder: html
+  fail_on_warning: true
 
 python:
   install:
