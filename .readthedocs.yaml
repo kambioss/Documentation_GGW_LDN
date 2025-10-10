@@ -1,18 +1,23 @@
+# .readthedocs.yaml
 version: 2
 
+# Configuration du build
 build:
   os: ubuntu-22.04
   tools:
-    python: "3.11"
+    python: "3.10"
 
+# Commande Sphinx
 sphinx:
   configuration: conf.py
 
+# Formats de sortie à générer
 formats:
+  - htmlzip
   - pdf
   - epub
-  - html
 
+# Dépendances à installer
 python:
   install:
     - requirements: requirements.txt
