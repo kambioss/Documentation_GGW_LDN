@@ -5,7 +5,7 @@ build:
   tools:
     python: "3.10"
   commands:
-    - bash build.sh
+    - sphinx-build -b html . $READTHEDOCS_OUTPUT/html
 
 sphinx:
   configuration: conf.py
@@ -15,4 +15,3 @@ python:
     - requirements: requirements.txt
 
 formats:
-  - pdf
