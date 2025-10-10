@@ -49,8 +49,9 @@ latex_elements = {
 
 import os
 
-# Use Read the Docs output directory if available
+# Configuration pour Read the Docs
 if os.environ.get('READTHEDOCS') == 'True':
-    html_output_dir = os.environ.get('READTHEDOCS_OUTPUT', '_build') + '/html'
-else:
-    html_output_dir = '_build/html'
+    # Utiliser le répertoire de sortie de Read the Docs
+    readthedocs_output = os.environ.get('READTHEDOCS_OUTPUT', '_build')
+    # Configurer le répertoire doctrees
+    os.environ['SPHINXOPTS'] = f'-d {readthedocs_output}/doctrees'
