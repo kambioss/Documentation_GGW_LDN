@@ -14,7 +14,6 @@ release = '0.0.2'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
@@ -25,13 +24,10 @@ extensions = [
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-
-
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'pydata_sphinx_theme'
-
 html_theme_options = {
     "repository_url": "https://github.com/kambioss/Documentation_GGW_LDN",
     "use_repository_button": True,
@@ -42,11 +38,10 @@ html_theme_options = {
 }
 
 html_static_path = ['_static']
-#html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-import os
 
-# Set the output directory for HTML builds
-if 'READTHEDOCS' in os.environ:
-    html_dir = os.path.join(os.environ.get('READTHEDOCS_OUTPUT', ''), 'html')
-else:
-    html_dir = '_build/html'
+# ❌ SUPPRIMEZ ces lignes - elles ne font rien dans Sphinx
+# import os
+# if 'READTHEDOCS' in os.environ:
+#     html_dir = os.path.join(os.environ.get('READTHEDOCS_OUTPUT', ''), 'html')
+# else:
+#     html_dir = '_build/html'
