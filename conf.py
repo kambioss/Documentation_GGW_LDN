@@ -9,7 +9,7 @@
 project = 'GGW LDM'
 copyright = '2025, OSS'
 author = 'OSS'
-release = '0.0.2'
+release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -43,13 +43,3 @@ html_theme_options = {
 
 html_static_path = ['_static']
 #html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-latex_elements = {
-    'figure_align': 'H',
-}
-
-import os
-
-if os.environ.get('READTHEDOCS') == 'True':
-    # Le chemin de sortie sera géré automatiquement par RTD
-    # mais on s'assure que doctrees utilise aussi le bon répertoire
-    pass
