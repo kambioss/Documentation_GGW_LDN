@@ -113,6 +113,11 @@ Decreases in carbon storage often indicate **loss of organic matter**, **defores
 Final SDG 15.3.1 Indicator
 -------------------------
 
+.. image:: _static/images/sdg.png
+   :alt: SDG 15.3.1 baseline Niger (2000-2015)
+   :width: 600px
+   :align: center
+
 The **SDG indicator 15.3.1** measures the **proportion of degraded land** over the total land area.
 
 Land is classified as **degraded** when **at least one** of the following sub-indicators shows a negative change:
