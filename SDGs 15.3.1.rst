@@ -1,3 +1,5 @@
+.. _sdg-15-3-1:
+
 SDG 15.3.1
 ========================================
 
@@ -15,20 +17,20 @@ Indicator **15.3.1** measures the **proportion of degraded land** over the total
 
 Land Cover
 ----------------------
+
 .. figure:: _static/images/land_cover_niger.png
-   :alt: Geoportal interface overview
+   :alt: Land cover map for Niger
    :width: 700px
    :align: center
 
-   Land cover map for Niger 2009
-
+   Land cover map for Niger (2009)
 
 The land cover sub-indicator measures changes in the Earth’s surface cover over time, detecting conversions between natural and human-modified land types.
+
 **Typical data sources:**
 - ESA CCI Land Cover
 
-[  Back to top](#sdg-15-3-1--proportion-of-degraded-land)
-
+`Back to top <#sdg-15-3-1>`_
 
 ---
 
@@ -37,12 +39,12 @@ The land cover sub-indicator measures changes in the Earth’s surface cover ove
 Land Cover Change
 ----------------------
 
-.. figure:: _static/images/landcover_chnage_niger_baseline.png
-   :alt: Geoportal interface overview
+.. figure:: _static/images/landcover_change_niger_baseline.png
+   :alt: Land cover change map for Niger
    :width: 700px
    :align: center
 
-   Land cover map for Niger baseline(2000-2015)
+   Land cover map for Niger – baseline period (2000–2015)
 
 This sub-indicator assesses **changes in land cover** between two reference periods (e.g., 2000–2015 or 2015–2022).  
 It helps detect transitions between land-cover classes (forest, cropland, grassland, built-up areas, etc.) and quantify **losses or gains of natural land**.
@@ -50,7 +52,7 @@ It helps detect transitions between land-cover classes (forest, cropland, grassl
 **Typical data sources:**
 - ESA CCI Land Cover
 
-[  Back to top](#sdg-15-3-1--proportion-of-degraded-land)
+`Back to top <#sdg-15-3-1>`_
 
 ---
 
@@ -63,8 +65,6 @@ Land Productivity
    :alt: Land productivity map
    :width: 600px
    :align: center
-
-
 
 This sub-indicator analyzes **vegetation dynamics** (e.g., NDVI or EVI) to estimate **productivity trends**.  
 A persistent decline in vegetation productivity can indicate **ecological degradation** or **human-induced land stress**.
@@ -79,7 +79,7 @@ A persistent decline in vegetation productivity can indicate **ecological degrad
 - Landsat NDVI
 - Google Earth Engine analyses
 
-[  Back to top](#sdg-15-3-1--proportion-of-degraded-land)
+`Back to top <#sdg-15-3-1>`_
 
 ---
 
@@ -89,7 +89,7 @@ Carbon Stock
 ----------------
 
 .. image:: _static/images/soc.png
-   :alt: Carbon stock map
+   :alt: Soil organic carbon map
    :width: 600px
    :align: center
 
@@ -106,7 +106,7 @@ Decreases in carbon storage often indicate **loss of organic matter**, **defores
 - GlobBiomass
 - ESA CCI Biomass
 
-[  Back to top](#sdg-15-3-1--proportion-of-degraded-land)
+`Back to top <#sdg-15-3-1>`_
 
 ---
 
@@ -114,7 +114,7 @@ Final SDG 15.3.1 Indicator
 -------------------------
 
 .. image:: _static/images/sdg.png
-   :alt: SDG 15.3.1 baseline Niger (2000-2015)
+   :alt: SDG 15.3.1 baseline Niger (2000–2015)
    :width: 600px
    :align: center
 
