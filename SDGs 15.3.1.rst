@@ -59,7 +59,7 @@ It helps detect transitions between land-cover classes (forest, cropland, grassl
 Land Productivity
 ----------------------
 
-.. image:: _static/images/landcover_chnage_niger_baseline.png
+.. image:: _static/images/productivity.png
    :alt: Land productivity map
    :width: 600px
    :align: center
@@ -88,7 +88,7 @@ A persistent decline in vegetation productivity can indicate **ecological degrad
 Carbon Stock
 ----------------
 
-.. image:: _static/images/landcover_chnage_niger_baseline.png
+.. image:: _static/images/soc.png
    :alt: Carbon stock map
    :width: 600px
    :align: center
@@ -107,3 +107,17 @@ Decreases in carbon storage often indicate **loss of organic matter**, **defores
 - ESA CCI Biomass
 
 [  Back to top](#sdg-15-3-1--proportion-of-degraded-land)
+
+---
+
+Final SDG 15.3.1 Indicator
+-------------------------
+
+The **SDG indicator 15.3.1** measures the **proportion of degraded land** over the total land area.
+
+Land is classified as **degraded** when **at least one** of the following sub-indicators shows a negative change:
+- Land cover change
+- Land productivity decline
+- Carbon stock loss
+
+This follows the **“one-out, all-out”** principle recommended by the **UNCCD**.

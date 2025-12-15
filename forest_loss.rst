@@ -63,7 +63,7 @@ Forest loss
 ----------------------
 
 .. image:: _static/images/forest_loss.png
-   :alt: Annual forest loss map
+   :alt: Annual forest loss map (2028)
    :width: 700px
    :align: center
 
