@@ -17,4 +17,5 @@ Bienvenue dans la documentation de GGW Land Degradation Management
    introduction
    plateforme_use
    SDGs 15.3.1
+   forest_loss
    

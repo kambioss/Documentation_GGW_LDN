@@ -42,9 +42,9 @@ Land Cover Change
    :width: 700px
    :align: center
 
-   Land cover map for Niger 2009
+   Land cover map for Niger baseline(2000-2015)
 
-This sub-indicator assesses **changes in land cover** between two reference periods (e.g., 2000–2015 or 2015–2020).  
+This sub-indicator assesses **changes in land cover** between two reference periods (e.g., 2000–2015 or 2015–2022).  
 It helps detect transitions between land-cover classes (forest, cropland, grassland, built-up areas, etc.) and quantify **losses or gains of natural land**.
 
 **Typical data sources:**

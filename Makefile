@@ -18,3 +18,9 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+pptx:
+	@echo "Generating PowerPoint presentation..."
+	pandoc index.rst -o $(BUILDDIR)/presentation.pptx --slide-level=2
+	@echo "PowerPoint created: $(BUILDDIR)/presentation.pptx"
+

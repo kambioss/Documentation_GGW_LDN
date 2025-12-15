@@ -45,3 +45,12 @@ html_static_path = ['_static']
 #     html_dir = os.path.join(os.environ.get('READTHEDOCS_OUTPUT', ''), 'html')
 # else:
 #     html_dir = '_build/html'
+
+
+latex_elements = {
+    'classoptions': ',oneside,openany',
+    'preamble': r'\usepackage{float}',
+    'figure_align': 'H',
+}
+
+
