@@ -21,7 +21,6 @@ Geoportal Overview Interface
    :alt: Geoportal interface overview
    :width: 700px
    :align: center
-
    Overview of the Geoportal interface
 
 When you open the Geoportal, you will see the main map view, toolbar, and side panels for data and analysis.
@@ -40,7 +39,6 @@ Use the Legend
    :alt: Open map legend
    :width: 100px
    :align: center
-
    Opening and understanding the legend
 
 The legend explains the meaning of colors and symbols on the map,
@@ -59,7 +57,6 @@ View Statistics
    :alt: Open statistics panel
    :width: 100px
    :align: center
-
    Viewing map statistics
 
 The statistics panel displays charts and numerical summaries for the selected area or indicator.
@@ -77,7 +74,6 @@ Zoom Controls
    :alt: Zoom buttons
    :width: 100px
    :align: center
-
    Zooming in and out
 
 Use the zoom buttons or mouse wheel to explore specific regions of the map more closely.
@@ -85,8 +81,6 @@ Use the zoom buttons or mouse wheel to explore specific regions of the map more 
 `Back to top <#geoportal-user-guide>`_
 
 ---
-
-
 
 .. _change_base_map:
 
@@ -97,7 +91,6 @@ Change the Base Map
    :alt: Change base map option
    :width: 300px
    :align: center
-
    Changing the base map
 
 Users can switch between different base maps (e.g., satellite, topographic, street view)
@@ -113,12 +106,16 @@ The base map selector is located on the right side of the toolbar.
 Change Indicators
 =================
 
-.. figure:: _static/images/change_indicators.png
-   :alt: Change indicators
-   :width: 500px
-   :align: center
+.. table::
+   :width: 100%
 
-   Selecting an indicator
+   +---------------------------+---------------------------+
+   | .. figure:: _static/images/change_indicators_1.png  | .. figure:: _static/images/change_indicators_2.png  |
+   |    :alt: Change indicators 1                        |    :alt: Change indicators 2                        |
+   |    :width: 350px                                    |    :width: 350px                                    |
+   |    :align: center                                   |    :align: center                                   |
+   |    Selecting an indicator (step 1)                  |    Selecting an indicator (step 2)                  |
+   +---------------------------+---------------------------+
 
 Click on the indicator panel to display available datasets, such as land degradation indicators or productivity layers.
 Indicators can be combined or compared visually on the map.
@@ -136,7 +133,6 @@ Choose an Area of Interest
    :alt: Choose area of interest
    :width: 300px
    :align: center
-
    Defining the area of interest
 
 You can select a specific region or administrative boundary to focus the analysis.
@@ -156,11 +152,28 @@ Apply Filters
    :alt: Apply filters
    :width: 300px
    :align: center
-
    Applying filters
 
 Use the filter panel to refine your data selection (e.g., time period, indicator type, or data source).
 Use filters to compare the baseline period (2000–2015) and the reporting period (2015–2022).
+
+`Back to top <#geoportal-user-guide>`_
+
+---
+
+.. _filter-by-country:
+
+Filter by Country
+=================
+
+.. figure:: _static/images/filtre_selectionner_pays.png
+   :alt: Filter to select a country
+   :width: 300px
+   :align: center
+   Country selection filter
+
+The country filter loads the data layers corresponding to the selected country.
+Once a country is selected, available indicators are updated automatically.
 
 `Back to top <#geoportal-user-guide>`_
 
@@ -175,7 +188,6 @@ National Geoportal Interface
    :alt: Geoportal interface for Niger
    :width: 700px
    :align: center
-
    Geoportal interface for Niger
 
 `Back to top <#geoportal-user-guide>`_
@@ -191,7 +203,6 @@ National Platform
    :alt: Menus de la plateforme nationale
    :width: 700px
    :align: center
-
    Menus available on the national platform
 
 The platform provides a country-specific view accessible from the main menu.
@@ -210,33 +221,10 @@ Display Customization
    :alt: Display customization options
    :width: 700px
    :align: center
-
    Display customization options (Niger)
 
 The customization toolbar allows you to adjust layer transparency, show or hide map elements,
 and configure the display of labels and administrative boundaries.
-
-`Back to top <#geoportal-user-guide>`_
-
-
-
-
----
-
-.. _filter-by-country:
-
-Filter by Country
-=================
-
-.. figure:: _static/images/filtre_selectionner_pays.png
-   :alt: Filter to select a country
-   :width: 300px
-   :align: center
-
-   Country selection filter
-
-The country filter loads the data layers corresponding to the selected country.
-Once a country is selected, available indicators are updated automatically.
 
 `Back to top <#geoportal-user-guide>`_
 
@@ -247,19 +235,16 @@ Once a country is selected, available indicators are updated automatically.
 GDT Actions and Land Degradation
 ================================
 
-.. figure:: _static/images/button_actions_GDT.png
-   :alt: GDT action buttons
-   :width: 700px
-   :align: center
+.. table::
+   :width: 100%
 
-   Sustainable land management action buttons
-
-.. figure:: _static/images/selectionner_une_action_de_degradation_des_terres.png
-   :alt: Select a land degradation action
-   :width: 250px
-   :align: center
-
-   Selecting a land degradation action
+   +---------------------------+---------------------------+
+   | .. figure:: _static/images/button_actions_GDT.png   | .. figure:: _static/images/selectionner_une_action_de_degradation_des_terres.png |
+   |    :alt: GDT action buttons                         |    :alt: Select a land degradation action           |
+   |    :width: 450px                                    |    :width: 250px                                    |
+   |    :align: center                                   |    :align: center                                   |
+   |    Sustainable land management action buttons       |    Selecting a land degradation action              |
+   +---------------------------+---------------------------+
 
 The GDT action buttons allow you to browse and filter restoration interventions by practice type
 (agroforestry, reforestation, water management, etc.).
